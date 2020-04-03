@@ -1,0 +1,23 @@
+# Sanjay short GIT HowTo
+
+1. Install Git (Version 2.26) for Windows
+
+2. Create a folder which will be storage folder for all codes and will be cloned with GIT online.
+
+3. Create a repository online at GITHUB.COM with free account.
+
+4. Copy the URL of the online GIT repository (e.g., https://github.com/sgkanade/Python_37.git) .
+
+5. Open the Git-BASH. CD to the base folder on local drive.
+
+6. Run the command - git clone <COPIED URL> <FOLDER NAME>. A folder with name <FOLDER NAME> will be created inside the base folder. 
+
+7. Now add files to this folder. / Modify files inside the folder.
+
+8. To upload the files from this folder to the GIT server:
+	
+	a. Run -  git add <FILE_NAME>   (This is called 'Staging')
+	b. Run -  git commit -m "MESSAGE"
+	c. Run -  git push origin master
+
+9. Run -  git diff <FILE_NAME> to see what modifications have been made to the file <FILE_NAME>
