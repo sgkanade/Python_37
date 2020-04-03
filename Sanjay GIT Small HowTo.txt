@@ -30,3 +30,11 @@
 	
 	d. You can get the latest files from <master> by runnig the command -  git checkout master.
 	
+	
+11. For getting a good looking GIT log, modify the file .gitconfig which is present in the User root folder. The file already has following content:
+[user]
+	email = s******e@gmail.com
+	name = s*****e
+Add following lines after these lines:
+[alias]
+    lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
