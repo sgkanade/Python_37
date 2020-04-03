@@ -21,3 +21,12 @@
 	c. Run -  git push origin master
 
 9. Run -  git diff <FILE_NAME> to see what modifications have been made to the file <FILE_NAME>
+
+10. To see / restore previous versions of your programs/files:
+
+	a. Run -  git log
+	b. Copy the string after the word commit of the version you want to restore. 
+	c. Run -  git checkout <Copied string in step b>. The files from that commit will be available in the local directory.
+	
+	d. You can get the latest files from <master> by runnig the command -  git checkout master.
+	
