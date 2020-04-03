@@ -38,3 +38,6 @@
 Add following lines after these lines:
 [alias]
     lg = log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
+	
+	
+For additional learning material, go to http://gitforeverybody.com/ — there are lots of free videos available and additional learning resources.
